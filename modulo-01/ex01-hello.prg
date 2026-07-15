@@ -1,4 +1,3 @@
-REQUEST HB_CODEPAGE_PT850
 FUNCTION Main()
 
    QOut("Ol , Mundo!")
