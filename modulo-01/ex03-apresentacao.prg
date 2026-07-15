@@ -6,6 +6,7 @@ FUNCTION Main()
     LOCAL cNome   := "Gabrielle"
     LOCAL cCidade := "Campinas"
     LOCAL cCurso  := "Harbour/ADVPL"
+
  
     hb_cdpSelect("PT850")
     QOut("==============================")
@@ -14,5 +15,6 @@ FUNCTION Main()
     QOut("Nome:" + cNome)
     QOut("Cidade:" + cCidade)
     QOut("Curso:" + cCurso)
+
 
 RETURN NIL
