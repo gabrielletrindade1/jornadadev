@@ -1,10 +1,6 @@
 # Exercício 2 — Pseudocódigo
 
-Escreva em pseudocódigo um algoritmo para cada item.
-
----
-
-## a. Calcular a área de um retângulo (base × altura)
+## a. Calcular a área de um retângulo
 
 ### Pseudocódigo
 
@@ -16,15 +12,14 @@ Leia altura
 
 area ← base * altura
 
-Escreva area
+Escreva "A área do retângulo é:", area
 
 Fim
 ```
 
-**Descrição:**
-- Lê o valor da base.
-- Lê o valor da altura.
-- Calcula a área multiplicando a base pela altura.
+**Como funciona:**
+- Recebe a base e a altura do retângulo.
+- Calcula a área multiplicando os dois valores.
 - Exibe o resultado.
 
 ---
@@ -39,19 +34,18 @@ Início
 Leia numero
 
 Se numero % 2 = 0 Então
-    Escreva "Par"
+    Escreva "O número é par."
 Senão
-    Escreva "Ímpar"
+    Escreva "O número é ímpar."
 FimSe
 
 Fim
 ```
 
-**Descrição:**
-- Lê um número.
+**Como funciona:**
+- Lê um número informado pelo usuário.
 - Verifica se o resto da divisão por 2 é igual a zero.
-- Se for, informa que o número é **Par**.
-- Caso contrário, informa que o número é **Ímpar**.
+- Exibe se o número é par ou ímpar.
 
 ---
 
@@ -66,24 +60,20 @@ Leia num1
 Leia num2
 Leia num3
 
-maior ← num1
-
-Se num2 > maior Então
-    maior ← num2
+Se num1 >= num2 E num1 >= num3 Então
+    Escreva "O maior número é:", num1
+Senão
+    Se num2 >= num1 E num2 >= num3 Então
+        Escreva "O maior número é:", num2
+    Senão
+        Escreva "O maior número é:", num3
+    FimSe
 FimSe
-
-Se num3 > maior Então
-    maior ← num3
-FimSe
-
-Escreva maior
 
 Fim
 ```
 
-**Descrição:**
+**Como funciona:**
 - Lê três números.
-- Considera inicialmente o primeiro como o maior.
-- Compara o segundo e o terceiro número com o maior atual.
-- Atualiza a variável `maior` quando encontrar um valor maior.
-- Exibe o maior número informado.
+- Compara os valores utilizando estruturas condicionais.
+- Exibe qual deles possui o maior valor.
