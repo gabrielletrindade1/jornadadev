@@ -1,6 +1,6 @@
 # Exercício 2 — Pseudocódigo
 
-## a. Calcular a área de um retângulo
+## A. Calcular a área de um retângulo
 
 ### Pseudocódigo
 
@@ -24,7 +24,7 @@ Fim
 
 ---
 
-## b. Verificar se um número é par ou ímpar
+## B. Verificar se um número é par ou ímpar
 
 ### Pseudocódigo
 
@@ -49,7 +49,7 @@ Fim
 
 ---
 
-## c. Encontrar o maior entre três números
+## C. Encontrar o maior entre três números
 
 ### Pseudocódigo
 

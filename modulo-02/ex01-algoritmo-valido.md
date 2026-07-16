@@ -4,24 +4,24 @@ Para cada situação abaixo, indique se é um algoritmo válido. Se não for, ex
 
 ---
 
-### a. “Some dois números.”
+### A. “Some dois números.”
 
 **R:** Não é um algoritmo válido. A instrução é ambígua, pois não informa quais são os dois números nem de onde eles vêm. Também não especifica o que deve ser feito com o resultado da soma.
 
 ---
 
-### b. “Leia um número. Se for positivo, mostre ‘positivo’. Senão, mostre ‘negativo’.”
+### B. “Leia um número. Se for positivo, mostre ‘positivo’. Senão, mostre ‘negativo’.”
 
 **R:** É um algoritmo válido. As instruções estão em ordem lógica e terminam após a exibição do resultado. Ele é finito, ordenado e sem ambiguidades.
 
 ---
 
-### c. “Fique repetindo até acabar.”
+### C. “Fique repetindo até acabar.”
 
 **R:** Não é um algoritmo válido. Não informa o que deve ser repetido nem quando a repetição deve terminar. Portanto, não garante que o algoritmo seja finito e possui ambiguidade.
 
 ---
 
-### d. “Pegue um ingrediente qualquer e cozinhe.”
+### D. “Pegue um ingrediente qualquer e cozinhe.”
 
 **R:** Não é um algoritmo válido. As instruções são vagas e podem ter diferentes interpretações, pois não informam qual ingrediente utilizar nem como o processo deve ser realizado.

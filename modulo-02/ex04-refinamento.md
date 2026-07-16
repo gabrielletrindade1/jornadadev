@@ -1,4 +1,4 @@
-# Exercício 4 — Refinamento Sucessivo
+# Exercício 4 — Refinamento Sucessivo.
 
 ## Problema
 
