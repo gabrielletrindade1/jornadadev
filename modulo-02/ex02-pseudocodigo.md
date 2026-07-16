@@ -33,7 +33,7 @@ Início
 
 Leia numero
 
-Se numero % 2 = 0 Então
+Se numero divide por 2 e o resto é igual a 0 Então
     Escreva "O número é par."
 Senão
     Escreva "O número é ímpar."
