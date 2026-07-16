@@ -1,6 +1,6 @@
 # Exercício 1 — Isto é um algoritmo válido?
 
-Para cada situação abaixo, indique se é um algoritmo válido. Se não for, explique o motivo (lembre dos três requisitos: finito, ordenado e sem ambiguidade).
+Para cada situação abaixo, indique se é um algoritmo válido. Se não for, explique o motivo (lembre dos três requisitos: finito, ordenado e sem ambiguidade):
 
 ---
 
