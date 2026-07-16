@@ -1,0 +1,3 @@
+# Exercício 5 — Reflexão
+
+O computador executa exatamente as instruções que recebe, sem interpretar ou tomar decisões por conta própria. Por isso, quando ocorre um erro, normalmente ele está na lógica ou nas instruções criadas pelo programador. Isso mostra a importância de planejar bem o algoritmo, testar o programa e revisar o código para garantir que ele funcione corretamente.
