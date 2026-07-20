@@ -11,10 +11,10 @@ FUNCTION Main()
     nSecreto := HB_RandomInt(1,100)
 
     QOut("====================================")
-    QOut("     JOGO: ADIVINHE O N�MERO")
+    QOut("     JOGO: ADIVINHE O NÚMERO")
     QOut("====================================")
-    QOut("Pensei em um n�mero entre 1 e 100.")
-    QOut("Voc� tem 7 tentativas.")
+    QOut("Pensei em um número entre 1 e 100.")
+    QOut("Você tem 7 tentativas.")
     QOut("")
 
     FOR nTentativa := 1 TO 7
@@ -26,9 +26,9 @@ FUNCTION Main()
 
             QOut("")
             QOut("====================================")
-            QOut("      PARAB�NS! VOC� ACERTOU!")
+            QOut("      PARABÉNS! VOCÊ ACERTOU!")
             QOut("====================================")
-            QOut("N�mero secreto: " + Str(nSecreto))
+            QOut("Número secreto: " + Str(nSecreto))
             QOut("Tentativas utilizadas: " + Str(nTentativa))
             QOut("Excelente trabalho!")
             EXIT
@@ -36,25 +36,25 @@ FUNCTION Main()
         ENDIF
 
         IF nPalpite < nSecreto
-            QOut("Dica: o n�mero secreto � MAIOR.")
+            QOut("Dica: o número secreto é MAIOR.")
         ELSE
-            QOut("Dica: o n�mero secreto � MENOR.")
+            QOut("Dica: o número secreto é MENOR.")
         ENDIF
 
         QOut("")
 
     NEXT
 
-    // S� executa se o jogador n�o acertou
+    // Só executa se o jogador não acertou
     IF nPalpite <> nSecreto
 
         QOut("")
         QOut("====================================")
         QOut("      FIM DE JOGO")
         QOut("====================================")
-        QOut("Voc� utilizou todas as 7 tentativas.")
-        QOut("O n�mero secreto era: " + Str(nSecreto))
-        QOut("Mais sorte na pr�xima!")
+        QOut("Você utilizou todas as 7 tentativas.")
+        QOut("O número secreto era: " + Str(nSecreto))
+        QOut("Mais sorte na próxima!")
 
     ENDIF
 
