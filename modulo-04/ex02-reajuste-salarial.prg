@@ -9,7 +9,7 @@ FUNCTION Main()
 
     hb_cdpSelect("PT850")
 
-    ACCEPT "Digite o sal†rio atual: R$ " TO cSalario
+    ACCEPT "Digite o sal√°rio atual: R$ " TO cSalario
     nSalario := Val(cSalario)
 
     IF nSalario < 1000
@@ -28,8 +28,8 @@ FUNCTION Main()
 
     nNovoSalario := nSalario + (nSalario * nReajuste)
 
-    QOut("Sal†rio atual: R$ " + AllTrim(Str(nSalario, 10, 2)))
+    QOut("Sal√°rio atual: R$ " + AllTrim(Str(nSalario, 10, 2)))
     QOut("Reajuste aplicado: " + AllTrim(Str(nReajuste * 100, 5, 2)) + "%")
-    QOut("Novo sal†rio: R$ " + AllTrim(Str(nNovoSalario, 10, 2)))
+    QOut("Novo sal√°rio: R$ " + AllTrim(Str(nNovoSalario, 10, 2)))
 
 RETURN NIL

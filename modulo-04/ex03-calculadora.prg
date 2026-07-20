@@ -12,13 +12,13 @@ FUNCTION Main()
 
     hb_cdpSelect("PT850")
 
-    ACCEPT "Digite o primeiro n£mero: " TO cValorA
+    ACCEPT "Digite o primeiro n√∫mero: " TO cValorA
     nA := Val(cValorA)
 
-    ACCEPT "Operaá∆o (+, -, *, /, ^, R): " TO cOperacao
+    ACCEPT "Opera√ß√£o (+, -, *, /, ^, R): " TO cOperacao
 
     IF Upper(cOperacao) <> "R"
-        ACCEPT "Digite o segundo n£mero: " TO cValorB
+        ACCEPT "Digite o segundo n√∫mero: " TO cValorB
         nB := Val(cValorB)
     ENDIF
 
@@ -38,7 +38,7 @@ FUNCTION Main()
 
     CASE cOperacao == "/"
         IF nB == 0
-            QOut("Erro: divis∆o por zero!")
+            QOut("Erro: divis√£o por zero!")
         ELSE
             nResultado := nA / nB
             QOut("Resultado: " + AllTrim(Str(nResultado,10,2)))
@@ -53,7 +53,7 @@ FUNCTION Main()
         QOut("Raiz quadrada: " + AllTrim(Str(nResultado,10,2)))
 
     OTHERWISE
-        QOut("Operaá∆o inv†lida!")
+        QOut("Opera√ß√£o inv√°lida!")
 
     ENDCASE
 
