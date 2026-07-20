@@ -11,7 +11,7 @@ FUNCTION Main()
 
     IF nValor1 == nValor2
 
-        QOut("Os dois valores sÆo iguais.")
+        QOut("Os dois valores sÃ£o iguais.")
 
     ELSEIF nValor1 > nValor2
 

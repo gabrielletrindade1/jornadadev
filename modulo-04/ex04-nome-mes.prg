@@ -5,7 +5,7 @@ FUNCTION Main()
     LOCAL nMes
 
     // Array com os nomes dos meses.
-    // A posi‡Æo corresponde ao n£mero do mˆs.
+    // A posi‡Æoo corresponde ao n£mero do mˆs.
     LOCAL aMeses := { ;
         "Janeiro", "Fevereiro", "Mar‡o", "Abril", ;
         "Maio", "Junho", "Julho", "Agosto", ;
@@ -15,10 +15,10 @@ FUNCTION Main()
 
     ACCEPT "Digite o n£mero do mˆs (1 a 12): " TO nMes
 
-    // Converte o valor digitado (texto) para n£mero.
+    // Converte o valor digitado (texto) para n?mero.
     nMes := Val(nMes)
 
-    // Verifica se o mˆs est  dentro do intervalo v lido.
+    // Verifica se o mˆs est  dentro do intervalo v?lido.
     IF nMes >= 1 .AND. nMes <= 12
 
         // Exibe o mˆs que est  na posi‡Æo informada.
