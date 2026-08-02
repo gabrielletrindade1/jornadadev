@@ -1,10 +1,3 @@
-
-// ============================================
-// ex05-tratamento-erros.prg
-// Exercicio 5 - Modulo 09
-// Tratamento de erros em Harbour puro
-// ============================================
-
 FUNCTION Main()
 
     LOCAL nNum1     := 10
